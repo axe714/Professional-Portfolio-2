@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Manrope&family=Pacifico&family=Paytone+One&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="output.css" />
+    <title>Allec Arzadon ©</title>
+  </head>
+  <body class="bg-white">
+    <nav class="bg-white">
+      <div class="mx-auto px-3">
+        <div class="flex items-center justify-between">    
+          <div class="flex items-center space-x-4">
+            <div>
+              <a href="#" class="flex items-center py-5 px-2 text-gray-800 md:pr-12">
+                <span class="font-['Pacifico'] text-2xl font-black hover:text-blue-900 transition-all">Allec Arzadon</span>
+              </a>
+            </div>
+            <!-- large screen nav.. hidden at middle size screen -->
+            <div class="hidden md:flex space-x-3">
+              <a href="#" class="font-['Manrope'] py-5 px-12 text-gray-700 transform hover:scale-110 hover:text-blue-500 transition-all">About Me</a>
+              <a href="#" class="font-['Manrope'] py-5 px-12 text-gray-700 transform hover:scale-110 hover:text-blue-500 transition-all">Skills</a>
+              <a href="#" class="font-['Manrope'] py-5 px-12 text-gray-700 transform hover:scale-110 hover:text-blue-500 transition-all">Projects</a>
+              <a href="#" class="font-['Manrope'] py-5 px-12 text-gray-700 transform hover:scale-110 hover:text-blue-500 transition-all">Resume</a>
+              <a href="#" class="font-['Manrope'] py-5 px-12 text-gray-700 transform hover:scale-110 hover:text-blue-500 transition-all">Contact Me</a>
+            </div>
+          </div>      
+        <!-- mobile button -->
+          <div class="md:hidden flex items-center">
+            <button class="mobile-menu-button">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+          </div>   
+        </div>
+      </div>
+    <!-- mobile nav -->
+      <div class="bg-white mobile-menu hidden md:hidden">
+        <a href="#" class="font-['Manrope'] block py-2 px-4 text-sm hover:bg-sky-100 hover:text-blue-900 transition-all">About Me</a>
+        <a href="#" class="font-['Manrope'] block py-2 px-4 text-sm hover:bg-sky-100 hover:text-blue-900 transition-all">Skills</a>
+        <a href="#" class="font-['Manrope'] block py-2 px-4 text-sm hover:bg-sky-100 hover:text-blue-900 transition-all">Projects</a>
+        <a href="#" class="font-['Manrope'] block py-2 px-4 text-sm hover:bg-sky-100 hover:text-blue-900 transition-all">Resume</a>
+        <a href="#" class="font-['Manrope'] block py-2 px-4 text-sm hover:bg-sky-100 hover:text-blue-900 transition-all">Contact Me</a>
+      </div>
+    </nav>
+
+    <!-- HERO CONTAINER -->
+    <div class="div bg-white py-12 md:py-24">
+      <div class="w-full max-w-screen-xl mx-auto px-12 py-12">
+        <div class="md:flex md:flex-col md:items-center md:justify-between">
+          <div class="flex-1 min-w-0 lg:pb-12">
+            <h2 class="flex justify-center text-2xl font-['Paytone One'] text-blue-900 leading-tight mb-3">
+              <span class="text-center text-5xl font-black">Aspiring Full Stack Developer</span>
+            </h2>
+            <p class="flex justify-center pt-3 text-gray-700">
+              <span class="font-['Poppins'] text-2xl font-black text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in quaerat itaque fugit repellendus aut!</span>
+            </p>
+          </div>
+          <div class="flex-1 px-12 pt-24 pb-8 lg:pt-8 lg:pb-12">
+            <img class="flex justify-center max-w-xsm md:max-w-sm max-h-sm rounded-full shadow-lg" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1696&q=80">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT ME CONTAINER -->
+    <div class='z-0 bg-blue-900 pt-24 pb-64 sm:pb-80 px-8 flex-col'>
+      <div class='flex justify-center text-center'>
+        <h2 class="text-4xl font-bold font-['Poppins'] text-white leading-tight">
+          <span class="text-4xl">Hi, I'm Allec. Nice to meet you.</span>
+        </h2>
+      </div>
+      <span class="flex justify-center font-['Poppins'] text-xl text-black">
+        <p class="pt-4 lg:px-64 text-center font-bold text-white leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias, consectetur odio fugiat hic quasi nostrum facilis rerum velit ut!</p>
+      </span>
+    </div>
+    <!-- SKILLS CONTAINER -->
+    <div class='z-50 bg-white flex justify-center flex-col -mt-24 mx-8 divide-y pb-36 md:flex md:flex-row md:mx-16 md:pb-80 md:divide-x-1 rounded-lg outline outline-sky-100'>
+      <div class="text-center">
+        <span class="align-center">Front-End</span>
+      </div>
+      <div class="text-center">
+        <span class="text-center">Back-End</span>
+      </div>
+    </div>
+
+
+    <script src="mobileMenu.js"></script>
+  </body>
