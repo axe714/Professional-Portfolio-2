@@ -7,10 +7,17 @@ ScrollReveal().reveal('#hero-title', {delay:200})
 ScrollReveal().reveal('#hero-sub-text', {delay:300})
 ScrollReveal().reveal('#hero-img', {delay:400})
 
-
 //about-me section
 ScrollReveal().reveal('#about-me-name', {delay:100})
 ScrollReveal().reveal('#about-me-text', {delay:300})
+
+//tech-stack section
+ScrollReveal().reveal('#stack-title-1', {delay:100})
+ScrollReveal().reveal('#stack-title-2', {delay:100})
+ScrollReveal().reveal('#stack-title-3', {delay:100})
+ScrollReveal().reveal('#stack-icons-1', {delay:200})
+ScrollReveal().reveal('#stack-icons-2', {delay:200})
+ScrollReveal().reveal('#stack-icons-3', {delay:200})
 
 //projects section
 ScrollReveal().reveal('#projects-header')
