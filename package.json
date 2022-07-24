@@ -4,7 +4,8 @@
   "description": "Revamping my professional portfolio using Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "push:pages": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/axe714/Professional-Portfolio-2#readme",
   "devDependencies": {
     "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "scrollreveal": "^4.0.9"
   }
 }
